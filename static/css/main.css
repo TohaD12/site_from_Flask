@@ -4,7 +4,6 @@
   width: 140px;
   height: 45px;
   line-height: 45px;
-  border: 4px solid #2EE59D;
   border-radius: 45px;
   margin: 10px 20px;
   font-family: 'Montserrat', sans-serif;
@@ -13,8 +12,8 @@
   text-align: center;
   letter-spacing: 3px;
   font-weight: 600;
-  color: #524f4;
-  background: gray;
+  color: #524f4e;
+  background: white;
   box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
   transition: .3s;
 }
@@ -23,4 +22,22 @@
   box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
   color: white;
   transform: translateY(-7px);
+}
+.gradient-button {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+.gradient-button:hover {
+  background-position: right center;
 }
